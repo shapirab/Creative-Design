@@ -1,0 +1,12 @@
+.container--header{
+    display: flex;
+    justify-content: center;
+}
+
+.section--heading{
+    text-transform: uppercase;
+    font-size: 5rem;
+    letter-spacing: 0.7px;
+    color: #ccc;
+    font-weight: 300;
+}
