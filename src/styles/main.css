@@ -1,3 +1,4 @@
+/* section header */
 .container--header{
     display: flex;
     justify-content: center;
@@ -10,3 +11,12 @@
     color: #ccc;
     font-weight: 300;
 }
+/* end of section header */
+/* customer stars component */
+.card__star{
+    font-size: 2rem;
+    color: var(--customer-color);
+    margin-left: 5px;
+    cursor: pointer;
+}
+/* end of customer stars component */
