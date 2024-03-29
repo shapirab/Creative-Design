@@ -12,11 +12,68 @@
     font-weight: 300;
 }
 /* end of section header */
-/* customer stars component */
+/* customer card section */
+.customer-card--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__background{
+    background-color: #eee;
+    padding: 1.5rem;
+}
+
+.customer-card__quotes{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.customer-card__quotes h2{
+    margin: 0;
+    font-size: 4rem;
+    color: var(--customer-color);
+}
+
+.customer-card__stars{
+    margin-bottom: 1rem;
+}
+
 .card__star{
     font-size: 2rem;
     color: var(--customer-color);
     margin-left: 5px;
     cursor: pointer;
 }
-/* end of customer stars component */
+
+.customer-card__body{
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.customer-card__body p{
+    font-size: 1.2rem;
+}
+
+.customer-card__portrait{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-top: 3rem;
+}
+
+.customer-card__portrait img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.customer-card__portrait p{
+    font-size: 1.2rem;
+}
+
+/* end of customer card section */
