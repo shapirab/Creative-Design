@@ -94,3 +94,18 @@
     font-size: 1.2rem;
 }
 /* end of customer cards container */
+/* buttons */
+.btn{
+    padding: 0.5rem 2.5rem;
+    border-radius: 10px;
+    letter-spacing: 0.7px;
+    font-size: 1.5rem;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn--primary{
+    background-color: var(--customer-color);
+    color: #fff;
+}
+/* end of buttons */
