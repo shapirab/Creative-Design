@@ -12,16 +12,34 @@
     font-weight: 300;
 }
 /* end of section header */
-/* customer card section */
+/* customer cards container */
+.customer-cards--container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5rem;
+    padding: 2rem;
+}
+
 .customer-card--container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 40%;
+    box-shadow: 3px 8px 5px 2px #ccc;
+    border-radius: 10px;
+}
+
+.customer-card--container:nth-child(1){
+    transform: translateY(20rem);
+}
+
+.customer-card--container:nth-child(2){
+    transform: translateY(10rem);
 }
 
 .container__background{
     background-color: #eee;
-    padding: 1.5rem;
+    padding: 5rem;
 }
 
 .customer-card__quotes{
@@ -75,5 +93,4 @@
 .customer-card__portrait p{
     font-size: 1.2rem;
 }
-
-/* end of customer card section */
+/* end of customer cards container */
