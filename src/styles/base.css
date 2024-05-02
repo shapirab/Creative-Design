@@ -4,6 +4,7 @@
 
 :root{
     --customer-color: #ff9933;
+    --undertone-color: #b7b6b6;
 }
 
 body, html{
@@ -41,10 +42,14 @@ img{
 
 ul{
    list-style: none;
+   padding: 0;
+   margin: 0;
 }
 
 li{
     margin-bottom: 1rem;
+    padding: 0;
+    margin: 0;
 }
 
 li a{

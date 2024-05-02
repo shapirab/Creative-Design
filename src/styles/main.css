@@ -109,3 +109,14 @@
     color: #fff;
 }
 /* end of buttons */
+/* team skills */
+.team__skills-container{
+    padding: 5px 1px;
+}
+
+.team__skills li{
+    font-size: 0.8rem;
+    padding: 1px 3px;
+    color: var(--undertone-color);
+}
+/* end of team skills */
