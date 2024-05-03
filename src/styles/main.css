@@ -37,7 +37,7 @@
     transform: translateY(10rem);
 }
 
-.container__background{
+.customer-card--container__background{
     background-color: #eee;
     padding: 5rem;
 }
@@ -120,3 +120,23 @@
     color: var(--undertone-color);
 }
 /* end of team skills */
+/* team card */
+.team-card--container{
+    box-shadow: 1px 1px 8px 3px #ccc;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.team-card__header{
+    display: flex;
+    align-items: center;
+}
+
+.team-card__heading{
+    font-size: 1.2rem;
+}
+
+.team-card__details{
+    margin-left: 3px;
+}
+/* end of team card */
