@@ -1,5 +1,6 @@
 const stars = document.querySelectorAll('.card__star');
-
+const teamCards = document.querySelectorAll('.team-card--container');
+//const showBios = document.querySelectorAll('.team-card__display-btn');
 //click event on a star
 //check how many stars are affected by the click
 //check our direction: descending or ascending:
@@ -14,6 +15,24 @@ const stars = document.querySelectorAll('.card__star');
 //      if any of the stars after clicked are full or half they should become empty and return
 //      else clicked should become half 
 
+// showBios.forEach((showBio) => {
+//     showBio.addEventListener('click', () => {
+//         let displayBtnLine = showBio.querySelector('.display-btn__line');
+//         displayBtnLine.classList.toggle('clicked');
+//         console.log(displayBtnLine)
+//     });
+// });
+
+teamCards.forEach((teamCard) => {
+    let showBio = teamCard.querySelector('.team-card__display-btn');
+    showBio.addEventListener('click', () => {
+        let displayBtnLine = showBio.querySelector('.display-btn__line');
+        displayBtnLine.classList.toggle('clicked');
+
+        let bio = teamCard.querySelector('.team-card__bio');
+        bio.classList.toggle('bio__show');
+    });
+});
 
 stars.forEach((star, index) => {
     star.addEventListener('click', () => highlightStars(index));
