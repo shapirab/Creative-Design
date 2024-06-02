@@ -159,13 +159,11 @@
     height: 2px;
     top: 40%;
     background-color: #bfbbbbb2;
+    transition: 0.5s;
 }
 
 .display-btn__line.clicked{
-    width: 2px;
-    height: 100%;
-    top: 0;
-    left: 40%;
+    transform: rotate(270deg);
 }
 
 .team-card__bio{
@@ -182,6 +180,7 @@
     padding: 5rem 1rem;
     border-radius: 80%;
     transform: scale(0);
+    transform-origin: top right;
     transition: 1s ease-in;
 }
 
