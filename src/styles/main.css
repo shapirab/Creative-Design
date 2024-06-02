@@ -199,4 +199,23 @@
     text-align: justify;
     line-height: 1.5rem;
 }
+
+.team-cards--container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5rem;
+    padding: 2rem;  
+    
+}
+
+.team-card--container:nth-child(1){
+    transform: translateY(0);
+}
+
+.team-card--container:nth-child(2){
+    transform: translateY(5rem);
+}
+.team-card--container:nth-child(3){
+    transform: translateY(10rem);
+}
 /* end of team card */
