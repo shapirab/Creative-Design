@@ -1,5 +1,13 @@
 const stars = document.querySelectorAll('.card__star');
 const teamCards = document.querySelectorAll('.team-card--container');
+
+// document.querySelector('.vertical-text').addEventListener('mouseover', function() {
+//     this.classList.add('hovered');
+// });
+
+// document.querySelector('.vertical-text').addEventListener('mouseout', function() {
+//     this.classList.remove('hovered');
+// });
 //const showBios = document.querySelectorAll('.team-card__display-btn');
 //click event on a star
 //check how many stars are affected by the click
