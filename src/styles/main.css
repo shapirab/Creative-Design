@@ -1,3 +1,4 @@
+
 /* section header */
 .container--header{
     display: flex;
@@ -13,6 +14,13 @@
 }
 /* end of section header */
 /* customer cards container */
+.container--customers{
+    height: fit-content;
+    width: fit-content;
+    padding: 1rem 3rem;
+    margin-bottom: 20rem;
+}
+
 .customer-cards--container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -24,7 +32,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
     box-shadow: 3px 8px 5px 2px #ccc;
     border-radius: 10px;
 }
@@ -222,10 +229,10 @@
 /* hero section */
 .hero__header{
     border-radius: 5px;
-    background-color: transparent;
+    background-color: rgba(255,255,255,.8);
     padding: 1.2rem 0.8rem;
     position: absolute;
-    top: 60%;
+    top: 40%;
     left: 30%;
 }
 .hero__heading{  
