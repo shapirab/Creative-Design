@@ -1,3 +1,9 @@
+.container{
+    height: fit-content;
+    width: fit-content;
+    padding: 1rem 3rem;
+    margin-bottom: 20rem;
+}
 
 /* section header */
 .container--header{
@@ -15,15 +21,12 @@
 /* end of section header */
 /* customer cards container */
 .container--customers{
-    height: fit-content;
-    width: fit-content;
-    padding: 1rem 3rem;
-    margin-bottom: 20rem;
+    
 }
 
 .customer-cards--container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
     grid-gap: 5rem;
     padding: 2rem;
 }
@@ -85,15 +88,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
     margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .customer-card__portrait img{
-    border-radius: 50%;
+    border-radius: 100%;
     object-fit: cover;
-    width: 100%;
+    width: 50%;
     height: 100%;
 }
 
@@ -208,8 +210,8 @@
 }
 
 .team-cards--container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
     grid-gap: 5rem;
     padding: 2rem;  
     
@@ -316,3 +318,76 @@
     }
 }
 /* end of floating background */
+
+/* contact */
+/* .contact--container{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--undertone-color);
+    perspective: 10500px;
+} */
+
+.contact--body{
+    display: flex;
+    justify-content: center;
+}
+
+.contact--container{
+    padding: 3rem;
+    width: 80%;
+    background-color: var(--undertone-color); 
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);  
+    height: 60vh; 
+}
+
+.contact--container__body{
+    perspective: 1500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__image{
+    padding: 5rem 7rem;
+    background-color: var(--background-color);
+    opacity: 0.7;
+    box-sizing: border-box;
+    transform: rotateY(50deg);    
+    display: block;
+    width: 80%;
+    box-shadow: 10px 15px 10px 13px #999;
+}
+
+.contact--form{
+   padding: 2rem;
+   transform: rotateY(-20deg);
+   display: block;
+   background-color: #fff;
+   height: fit-content;
+   width: 70%;
+   box-shadow: 15px 10px 10px 13px #999;
+}
+
+.contact--form__content{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact--form__input{
+    margin-top: 2rem;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.contact--form__btn{
+    background-color: var(--background-color);
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+
+/* end of contact */

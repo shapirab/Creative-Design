@@ -6,6 +6,7 @@
 :root{
     --customer-color: #ff9933;
     --undertone-color: #b7b6b6;
+    --background-color: rgb(58, 205, 224);
 }
 
 body, html{

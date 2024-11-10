@@ -5,3 +5,11 @@
 .l-grid--col-5{
     grid-template-columns: repeat(5, 1fr);
 }
+
+.l-grid--col-2{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.l-grid--col-3{
+    grid-template-columns: repeat(3, 1fr);
+}
